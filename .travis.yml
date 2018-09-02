@@ -22,7 +22,7 @@ script:
  - ./gradlew clean assemble
 
 after_success:
- - ./gradlew bintrayUpload -PbintrayUser=BINTRAY_USERNAME -PbintrayKey=BINTRAY_KEY -PdryRun=false
+ - ./gradlew bintrayUpload -PdryRun=false
 
 notifications:
   email: false
