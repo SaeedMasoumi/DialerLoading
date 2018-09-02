@@ -1,6 +1,6 @@
 # DialerLoading [ ![Download](https://api.bintray.com/packages/smasoumi/maven/dialer-loading/images/download.svg) ](https://bintray.com/smasoumi/maven/dialer-loading/_latestVersion)
 
-A rotary dial loading view written in kotlin.
+A rotary dialer loading view written in Kotlin.
 
 <p align="center">
   <img src="preview.gif" height="400" width="366.92"/>
