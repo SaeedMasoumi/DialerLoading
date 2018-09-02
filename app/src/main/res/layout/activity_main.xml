@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DialerActivity"
+        >
+
+    <io.saeid.dialerloading.DialerLoadingView
+            android:id="@+id/rotary_dialer"
+            android:layout_width="182dp"
+            android:layout_height="182dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            />
+    <TextView
+            android:id="@+id/dialing_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rotary_dialer"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            android:shadowColor="@color/colorPrimary"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="10"
+            android:text="Dialing ..."
+            android:textSize="38sp"
+            android:textStyle="bold"
+            app:fontFamily="@font/voltaire"
+            />
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:text="https://github.com/SaeedMasoumi/DialerLoading"
+            android:textColor="#afafaf"
+            android:textSize="12sp"
+            app:fontFamily="@font/voltaire"
+            />
+
+</RelativeLayout>

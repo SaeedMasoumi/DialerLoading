@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DialerLoadingView">
+        <attr format="color" name="dialer_background_color"/>
+        <attr format="color" name="dialer_color_start"/>
+        <attr format="color" name="dialer_color_end"/>
+        <attr format="color" name="dialer_digit_color"/>
+        <attr format="color" name="dialer_triangle_color"/>
+        <attr format="integer" name="dialer_duration"/>
+    </declare-styleable>
+</resources>
