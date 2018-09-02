@@ -5,13 +5,11 @@ apply plugin: 'com.novoda.bintray-release'
 android {
   compileSdkVersion 28
 
-
-
   defaultConfig {
     minSdkVersion 14
     targetSdkVersion 28
     versionCode 1
-    versionName "1.0"
+    versionName "1.0.0"
 
     testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
   }
@@ -35,12 +33,14 @@ tasks.withType(Javadoc).all {
 }
 
 publish {
-  userOrg = 'saeid'
+  userOrg = ""
   groupId = 'io.saeid'
+  uploadName = 'dialer-loading'
   artifactId = 'dialer-loading'
-  publishVersion = '1.0.0-rc1'
+  publishVersion = '1.0.0'
   desc = 'Rotary dialer loading view for Android'
   website = 'https://github.com/SaeedMasoumi/DialerLoading'
+  dryRun = false
 
   bintrayUser = System.getProperty("BINTRAY_USERNAME")
   bintrayKey = System.getProperty("BINTRAY_KEY")

@@ -1,2 +1,4 @@
 # DialerLoading
-A rotary dial loading view 
+
+A rotary dial loading view.
+
