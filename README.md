@@ -1,4 +1,5 @@
-# DialerLoading [ ![Download](https://api.bintray.com/packages/smasoumi/maven/dialer-loading/images/download.svg) ](https://bintray.com/smasoumi/maven/dialer-loading/_latestVersion)
+# DialerLoading [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-DialerLoading-green.svg?style=flat )]( https://android-arsenal.com/details/1/7177 )[ ![Download](https://api.bintray.com/packages/smasoumi/maven/dialer-loading/images/download.svg) ](https://bintray.com/smasoumi/maven/dialer-loading/_latestVersion)
+
 
 A rotary dialer loading view written in Kotlin.
 
